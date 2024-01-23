@@ -1,11 +1,42 @@
+<!DOCTYPE html>
 <html lang="en-us">
   <head>
     <title>Zoo Animals</title>
     <link rel="”stylesheet”" href="”style.css”" />
-  </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        margin: 01;
+        font-family: Arial, Helvetica, sans-serif;
+      }
 
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      .topnav a.active {
+        background-color: #04aa6d;
+        color: white;
+      }
+    </style>
+  </head>
   <body>
-    <div class="nav">
+    <div class="topnav">
       <a href="#Bears" class="btn">Bears</a>
       <a href="#Giraffes" class="btn">Giraffes</a>
       <a href="#Lions" class="btn">Lions</a>
@@ -64,12 +95,13 @@
       <a href="https://en.wikipedia.org/wiki/Lion">Lions</a>
     </h2>
     <p>
-      <a href="https://en.wikipedia.org/wiki/Lion">Lions</a>
-      <img
-        src="https://images.ladbible.com/resize?type=webp&quality=70&width=720&fit=contain&gravity=null&url=https://s3-images.ladbible.com/s3/content/ee3657525c1a434768ec9462d9ec33ad.png"
-        alt="lion smiling"
-        width="350"
-      />
+      <a href="https://en.wikipedia.org/wiki/Lion">
+        <img
+          src="https://images.ladbible.com/resize?type=webp&quality=70&width=720&fit=contain&gravity=null&url=https://s3-images.ladbible.com/s3/content/ee3657525c1a434768ec9462d9ec33ad.png"
+          alt="lion smiling"
+          width="350"
+        />
+      </a>
     </p>
     <p>
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum voluptas
@@ -86,12 +118,13 @@
       <a href="https://en.wikipedia.org/wiki/Monkey">Monkeys</a>
     </h2>
     <p>
-      <a href="https://en.wikipedia.org/wiki/Monkey">Monkeys</a>
-      <img
-        src="https://influenceadvisors.com/wp-content/uploads/2014/08/Smiling-Monkey-low-rez-e1485902325942-1080x675.jpg"
-        alt="smiling monkey"
-        width="350"
-      />
+      <a href="https://en.wikipedia.org/wiki/Monkey">
+        <img
+          src="https://influenceadvisors.com/wp-content/uploads/2014/08/Smiling-Monkey-low-rez-e1485902325942-1080x675.jpg"
+          alt="smiling monkey"
+          width="350"
+        />
+      </a>
     </p>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam in cumque
@@ -112,12 +145,13 @@
       </div>
     </h2>
     <p>
-      <a href="https://en.wikipedia.org/wiki/Alligator"></a>
-      <img
-        src="https://preview.redd.it/4wgqxg15g0e71.jpg?width=960&crop=smart&auto=webp&s=3b2f7f464cfaa44270bd35539355f041f367901e"
-        alt="happy Alligator"
-        width="350"
-      />
+      <a href="https://en.wikipedia.org/wiki/Alligator">
+        <img
+          src="https://preview.redd.it/4wgqxg15g0e71.jpg?width=960&crop=smart&auto=webp&s=3b2f7f464cfaa44270bd35539355f041f367901e"
+          alt="happy Alligator"
+          width="350"
+        />
+      </a>
     </p>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus est ipsa
@@ -129,7 +163,7 @@
       <li>Aspen</li>
       <li>Mika</li>
     </ol>
-    <a href="#top">Top</a>
+    <a href="#top">Back to Top</a>
     <div>&copy; Wild Animal Mini-Zoo</div>
   </body>
 </html>
